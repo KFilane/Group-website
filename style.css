@@ -32,9 +32,16 @@ a:hover{
     bottom: 60px;
     left: 40%;
 }
+h1{
+    background-color: #1abc9c;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
    /* css for navbar section*/
-   
+
 .logo{
  
     width: 10%;
