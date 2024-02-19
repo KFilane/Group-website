@@ -3,11 +3,6 @@
     padding: 0 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.container{
-    width: 100%;
-    margin: 0 auto;
-    padding: 0% ;
-}
   
 .img-responsive{
 width: 100%;
@@ -23,34 +18,15 @@ text-align: right;
     text-align: center;
     }
 
-    .text-white{
-        color: #27ae60;
-    }
-
 a{
    color: #080808; 
    text-decoration-line: none;
 }
 
 a:hover{
-<<<<<<< HEAD
-    color: #2b8dbb;
-=======
     color: #0d52e6;
->>>>>>> 0b65a11a2286570c4d437c0357d2c96e39221710
 }
 
-.h2{
-    color: #2c3e50;
-    font-size: 2rem;
-}
-
-.h3{
-    font-size: 3.5rem;
-}
-.float-container{
-    position: relative;
-}
 .float-text{
     position:absolute;
     bottom: 60px;
@@ -58,17 +34,15 @@ a:hover{
 }
 
    /* css for navbar section*/
+   
 .logo{
-<<<<<<< HEAD
-=======
  
->>>>>>> 0b65a11a2286570c4d437c0357d2c96e39221710
     width: 10%;
     float: left;
 }
 .navigation{
     line-height: 70px;
-    background-color: aliceblue;
+   
    
 }
 .navigation nav{
