@@ -124,3 +124,28 @@ h1{
     color: #f31c1c;
   }
 
+  .about-us{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    display: inline-block;
+  }
+  
+  .img {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #3498db;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+  }
