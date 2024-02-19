@@ -19,13 +19,6 @@ width: 100%;
 .text-right{
 text-align: right;
 }
-.text-center{
-    text-align: center;
-    }
-
-    .text-white{
-        color: #27ae60;
-    }
 
 a{
    color: #080808; 
@@ -36,22 +29,6 @@ a:hover{
     color: #ff4757;
 }
 
-.h2{
-    color: #2c3e50;
-    font-size: 2rem;
-}
-
-.h3{
-    font-size: 3.5rem;
-}
-.float-container{
-    position: relative;
-}
-.float-text{
-    position:absolute;
-    bottom: 60px;
-    left: 40%;
-}
 
    /* css for navbar section*/
 .logo{
