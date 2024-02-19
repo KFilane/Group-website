@@ -26,18 +26,19 @@ a{
 }
 
 a:hover{
-    color: #ff4757;
+    color: #2b8dbb;
 }
 
 
    /* css for navbar section*/
 .logo{
-    border: 2px solid black;
     width: 10%;
     float: left;
 }
 .navigation{
     line-height: 70px;
+    background-color: aliceblue;
+   
 }
 .navigation nav{
     list-style-type: none;
