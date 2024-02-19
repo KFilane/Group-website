@@ -33,11 +33,7 @@ a{
 }
 
 a:hover{
-<<<<<<< HEAD
-    color: #2b8dbb;
-=======
     color: #0d52e6;
->>>>>>> 0b65a11a2286570c4d437c0357d2c96e39221710
 }
 
 .h2{
@@ -59,10 +55,7 @@ a:hover{
 
    /* css for navbar section*/
 .logo{
-<<<<<<< HEAD
-=======
  
->>>>>>> 0b65a11a2286570c4d437c0357d2c96e39221710
     width: 10%;
     float: left;
 }
@@ -82,5 +75,31 @@ a:hover{
 
 /*ABOUT US*/
 
+.about{
+    position:absolute;
+    bottom: 60px;
+    left: 40%;
+}
+.about h1{
+   color: #fff;
+}
 
+#About-us {
+    background-color: #e42424;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #about-us h1 {
+    color: #df0719;
+  }
+  
+  #about-us p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f31c1c;
+  }
 
