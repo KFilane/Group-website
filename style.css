@@ -39,6 +39,9 @@ h1{
     text-transform: uppercase;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: auto;
+    margin-top: 5rem;
+    padding: 2rem;
 }
 /* Home page*/
 
@@ -62,15 +65,18 @@ h1{
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 1;
-    color: rgb(231, 38, 38); 
+    color: whitesmoke; 
 }
 .text-overlay h1 {
     font-size: 3em;
     margin-bottom: 10px;
+    background-color: transparent;
+
 }
 
 .text-overlay small {
     font-size: 1.2em;
+    color: whitesmoke; 
 }
 
    /* css for navbar section*/
@@ -83,6 +89,7 @@ h1{
 .navigation{
     line-height: 70px;
    background-color: #3498db;
+   padding-bottom: 0.5%;
    
 }
 .navigation nav{
