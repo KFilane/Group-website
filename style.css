@@ -117,23 +117,14 @@ h1{
     background-color: #e42424;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-<<<<<<< HEAD
-  #about-us h1 {
-    color: #050505;
-  }
-=======
->>>>>>> bc41b7b02a642d48d7566638471f2de47826bf25
+    box-shadow: 0 0 10px white
   
   #about-us p {
     font-size: 16px;
     line-height: 1.5;
     color: #000000;
   }
+
 
   .about-us{
     text-align: center;
@@ -213,4 +204,3 @@ h1{
     border-radius: 5px;
     padding: 8px 25px;
   }
->>>>>>> bc41b7b02a642d48d7566638471f2de47826bf25
