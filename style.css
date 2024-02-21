@@ -20,15 +20,6 @@ text-align: right;
     text-align: center;
     }
 
-a{
-   color: #080808; 
-   text-decoration-line: none;
-}
-
-a:hover{
-    color: #0d52e6;
-}
-
 .float-text{
     position:absolute;
     bottom: 60px;
@@ -36,7 +27,7 @@ a:hover{
 }
 
 h1{
-    background-color: #1abc9c;
+    background-color: #81ecec;
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -90,18 +81,26 @@ h1{
 }
 .navigation{
     line-height: 70px;
-   background-color: #3498db;
+   background-color: #ecf0f1;
    padding-bottom: 0.5%;
    
 }
-.navigation nav{
+.navigation nav a{
     list-style-type: none;
+    text-decoration-line: none;
+    color: #1abc9c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
 }
  .navigation nav li{
     display: inline;
     padding: 1%;
     font-weight: bold;
  }
+ .navigation a:hover{
+    color: #000000;
+}
+
 
 /*ABOUT US*/
 
@@ -122,9 +121,6 @@ h1{
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
-  }
-  #about-us h1 {
-    color: #df0719;
   }
   
   #about-us p {
