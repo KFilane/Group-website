@@ -122,12 +122,9 @@ h1{
     max-width: 600px;
     margin: 0 auto;
   }
-<<<<<<< HEAD
   #about-us h1 {
     color: #050505;
   }
-=======
->>>>>>> bc41b7b02a642d48d7566638471f2de47826bf25
   
   #about-us p {
     font-size: 16px;
@@ -158,7 +155,6 @@ h1{
 
   p {
     font-size: 16px;
-<<<<<<< HEAD
     color: #080707;
   }
   body {
@@ -282,9 +278,9 @@ button:hover {
 
 .map {
     margin-left: 20px; /* Add some space between the form and the map */
-}
 
-    color:{ #666;
+
+    color:#6666;
   }
 
 /* CONTACT US section */
@@ -340,61 +336,58 @@ button:hover {
 .SEND:hover {
   background-color: #102338;
 }
-=======
   
-  /*styling for Services*/
+ /*styling for Services*/
 
-  .box{
-    background: linear-gradient(45deg,rgb(237, 234, 240),rgb(149, 177, 162));
-    padding: 15px 9%;
-    padding-bottom: 100px;
-  }
-  .box .heading{
-    text-align: center;
-    padding-bottom: 15px;
-    color: #fff;
-    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) ;
-    font-size: 50px;
-  }
-  
-  .containers .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    gap:15px;
-  }
-  .box .box-container .box{
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius:5px;
-    background: #fff;
-    text-align: center;
-    padding: 30px 20px;
-  }
+ .box{
+  background: linear-gradient(45deg,rgb(237, 234, 240),rgb(149, 177, 162));
+  padding: 15px 9%;
+  padding-bottom: 100px;
+}
+.box .heading{
+  text-align: center;
+  padding-bottom: 15px;
+  color: #fff;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) ;
+  font-size: 50px;
+}
 
-  .box.box-container .box img{
-    height:80px;
-  }
+.containers .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap:15px;
+}
+.box .box-container .box{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius:5px;
+  background: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
 
-  .box .box-container .box h3{
-    color:#333;
-    font-size: 22px;
-    padding: 10px 0;
+.box.box-container .box img{
+  height:80px;
+}
 
-  }
+.box .box-container .box h3{
+  color:#333;
+  font-size: 22px;
+  padding: 10px 0;
 
-  .box .box-container .box p{
-    color: #777;
-    font-size: 15px;
-    line-height: 1.8;
-  }
+}
 
-  .box .box-container .box .btn{
-    margin-top: 10x;
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    font-size: 17px;
-    border-radius: 5px;
-    padding: 8px 25px;
-  }
->>>>>>> a6282e96a4830f1f5c5ff98cb2832489ec125b3e
->>>>>>> bc41b7b02a642d48d7566638471f2de47826bf25
+.box .box-container .box p{
+  color: #777;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.box .box-container .box .btn{
+  margin-top: 10x;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
