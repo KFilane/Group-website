@@ -117,14 +117,17 @@ h1{
     background-color: #e42424;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px white
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+    #about-us h {
+       color: #050505  }
   
   #about-us p {
     font-size: 16px;
     line-height: 1.5;
     color: #000000;
   }
-
 
   .about-us{
     text-align: center;
