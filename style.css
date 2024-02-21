@@ -122,13 +122,13 @@ h1{
     margin: 0 auto;
   }
   #about-us h1 {
-    color: #df0719;
+    color: #050505;
   }
   
   #about-us p {
     font-size: 16px;
     line-height: 1.5;
-    color: #f31c1c;
+    color: #000000;
   }
 
   .about-us{
@@ -154,5 +154,127 @@ h1{
   
   p {
     font-size: 16px;
-    color: #666;
+    color: #080707;
   }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    flex: 0 0 48%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.article-image {
+    width: 30%; 
+    height: auto;
+}
+
+.read-more {
+    background-color: #0c87ec;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.read-more:hover {
+    background-color: #45a049;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-info,
+.footer-social {
+    flex: 1; /* Take up equal space */
+}
+
+.footer-info h3,
+.footer-social h3 {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icon {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-icon:hover {
+    color: #4CAF50;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contact-form,
+.contact-info,
+.map {
+    flex: 1; /* Take up equal space */
+}
+
+.contact-form {
+    max-width: 400px; /* Adjust the max-width as needed */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.map {
+    margin-left: 20px; /* Add some space between the form and the map */
+}
