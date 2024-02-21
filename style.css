@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 *{
     margin: 0 0;
     padding: 0 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
   
 .img-responsive{
@@ -18,15 +20,6 @@ text-align: right;
     text-align: center;
     }
 
-a{
-   color: #080808; 
-   text-decoration-line: none;
-}
-
-a:hover{
-    color: #0d52e6;
-}
-
 .float-text{
     position:absolute;
     bottom: 60px;
@@ -34,7 +27,7 @@ a:hover{
 }
 
 h1{
-    background-color: #1abc9c;
+    background-color: #81ecec;
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -88,18 +81,26 @@ h1{
 }
 .navigation{
     line-height: 70px;
-   background-color: #3498db;
+   background-color: #ecf0f1;
    padding-bottom: 0.5%;
    
 }
-.navigation nav{
+.navigation nav a{
     list-style-type: none;
+    text-decoration-line: none;
+    color: #1abc9c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
 }
  .navigation nav li{
     display: inline;
     padding: 1%;
     font-weight: bold;
  }
+ .navigation a:hover{
+    color: #000000;
+}
+
 
 /*ABOUT US*/
 
@@ -120,9 +121,6 @@ h1{
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
-  }
-  #about-us h1 {
-    color: #df0719;
   }
   
   #about-us p {
@@ -151,11 +149,12 @@ h1{
   h3 {
     color: #333;
   }
-  
+
   p {
     font-size: 16px;
     color: #666;
   }
+<<<<<<< HEAD
 /* CONTACT US section */
 #Contact {
   padding: 60px;
@@ -209,3 +208,60 @@ h1{
 .SEND:hover {
   background-color: #102338;
 }
+=======
+  
+  /*styling for Services*/
+
+  .box{
+    background: linear-gradient(45deg,rgb(237, 234, 240),rgb(149, 177, 162));
+    padding: 15px 9%;
+    padding-bottom: 100px;
+  }
+  .box .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) ;
+    font-size: 50px;
+  }
+  
+  .containers .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+  }
+  .box .box-container .box{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius:5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .box.box-container .box img{
+    height:80px;
+  }
+
+  .box .box-container .box h3{
+    color:#333;
+    font-size: 22px;
+    padding: 10px 0;
+
+  }
+
+  .box .box-container .box p{
+    color: #777;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .box .box-container .box .btn{
+    margin-top: 10x;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+  }
+>>>>>>> a6282e96a4830f1f5c5ff98cb2832489ec125b3e
