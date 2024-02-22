@@ -286,59 +286,8 @@ button:hover {
   }
 
 /* CONTACT US section */
-#Contact {
-  padding: 60px;
-}
 
-.contact {
-  display: flex;
-  flex-direction: column;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 30px;
-  background-color: rgb(160, 194, 181);
-}
 
-.contact-info,
-.contact form,
-.map {
-  margin-bottom: 30px;
-  padding: 20px;
-  background-color: #f0f0f0;
-  border-radius: 40px; /* Adjust border radius */
-}
-
-.input-group {
-  margin-bottom: 20px;
-}
-
-.input-group label {
-  margin-bottom: 10px;
-}
-
-.input-group input,
-.input-group textarea {
-  width: 100%;
-  padding: 8px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-.SEND {
-  margin-top: 10px;
-  display: inline-block;
-  background: #333;
-  color: #fff;
-  font-size: 17px;
-  border-radius: 5px;
-  padding: 8px 25px;
-  cursor: pointer;
-}
-
-.SEND:hover {
-  background-color: #102338;
-}
-  
  /*styling for Services*/
 
  .box{
