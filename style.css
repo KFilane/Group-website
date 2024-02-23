@@ -27,7 +27,7 @@ text-align: right;
 }
 
 h1{
-    background-color: #81ecec;
+    background-color: #2980b9;
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -121,10 +121,9 @@ h1{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
-    #about-us h {
-       color: #050505  }
+   
   #about-us h1 {
-    color: #050505;
+    color:  #fff;
   }
   
   #about-us p {
