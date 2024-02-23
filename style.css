@@ -27,7 +27,7 @@ text-align: right;
 }
 
 h1{
-    background-color: #81ecec;
+    background-color: #2980b9;
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -121,10 +121,9 @@ h1{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
-    #about-us h {
-       color: #050505  }
+   
   #about-us h1 {
-    color: #050505;
+    color:  #fff;
   }
   
   #about-us p {
@@ -233,7 +232,7 @@ h1{
 }
 
 .social-icon:hover {
-    color: #4CAF50;
+    color: #0c87ec;
 }
 
 .contact-container {
@@ -267,16 +266,16 @@ textarea {
     padding: 8px;
 }
 
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-}
+/* button { */
+  /* background-color: #0c87ec */
+  /* padding: 10px; */
+  /* border: none; */
+  /* cursor: pointer; */
+/* } */
+
 
 button:hover {
-    background-color: #45a049;
+    background-color: #0c87ec;
 }
 
 .contact-info p {
@@ -342,15 +341,15 @@ button:hover {
 
 .contact-form input[type="submit"] {
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #0c87ec;
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .contact-form input[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #0c87ec;
 }
 
  /*styling for Services*/
