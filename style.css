@@ -410,9 +410,10 @@ button:hover {
 .box .box-container .box .btn{
   margin-top: 10x;
   display: inline-block;
-  background: #333;
+  background: #5171ca;
   color: #fff;
   font-size: 17px;
   border-radius: 5px;
   padding: 8px 25px;
 }
+
