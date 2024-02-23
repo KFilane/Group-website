@@ -40,39 +40,39 @@ h1{
 /* Home page*/
 
 .background {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .background video {
-    width: 100%;
-    height: 500px; 
-    object-fit: cover;
-    position: relative;
-    z-index: 0;
+  width: 100%;
+  height: 500px; 
+  object-fit: cover;
+  position: relative;
+  z-index: 0;
 }
 
 .text-overlay {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 1;
-    color: whitesmoke; 
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  
 }
 .text-overlay h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-    background-color: transparent;
-
+  margin-bottom: 10px;
+  background-color: transparent;
+  /* margin-top: -50px; */
+  text-shadow: 2px 1px 2px #000;
+  font-size: 5em;
+  color: rgba(255, 255, 255, 0.7);
 }
-
-.text-overlay small {
-    font-size: 1.2em;
-    color: whitesmoke; 
+.text-overlay h3 {
+  font-size: 1.2em;
+  color: whitesmoke;
 }
-
    /* css for navbar section*/
 
 .logo{
@@ -82,14 +82,14 @@ h1{
 }
 .navigation{
     line-height: 70px;
-    background-color: #ecf0f1;
+    background-color: #2980b9;
     padding-bottom: 0.5%;
    
 }
 .navigation nav a{
     list-style-type: none;
     text-decoration-line: none;
-    color: #1abc9c;
+    color: #ecf0f1;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
 }
