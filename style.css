@@ -299,8 +299,7 @@ button:hover {
   border-radius: 5px;
 }
 
-.contact-info,
-.contact-form {
+.contact {
   margin-bottom: 20px;
 }
 
@@ -316,16 +315,16 @@ button:hover {
   margin-bottom: 20px;
 }
 
-.contact-form form {
+.contact form {
   display: flex;
   flex-direction: column;
 }
 
-.contact-form label {
+.contact label {
   margin-bottom: 5px;
 }
 
-.contact-form input[type="text"],
+.contact input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
   padding: 10px;
@@ -335,11 +334,11 @@ button:hover {
   width: 100%;
 }
 
-.contact-form textarea {
+.contact textarea {
   height: 150px;
 }
 
-.contact-form input[type="submit"] {
+.contact input[type="submit"] {
   padding: 10px 20px;
   background-color: #0c87ec;
   color: white;
@@ -348,7 +347,7 @@ button:hover {
   cursor: pointer;
 }
 
-.contact-form input[type="submit"]:hover {
+.contact input[type="submit"]:hover {
   background-color: #0c87ec;
 }
 
