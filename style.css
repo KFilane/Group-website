@@ -233,7 +233,7 @@ h1{
 }
 
 .social-icon:hover {
-    color: #4CAF50;
+    color: #0c87ec;
 }
 
 .contact-container {
@@ -267,16 +267,16 @@ textarea {
     padding: 8px;
 }
 
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-}
+/* button { */
+  /* background-color: #0c87ec */
+  /* padding: 10px; */
+  /* border: none; */
+  /* cursor: pointer; */
+/* } */
+
 
 button:hover {
-    background-color: #45a049;
+    background-color: #0c87ec;
 }
 
 .contact-info p {
