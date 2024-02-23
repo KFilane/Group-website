@@ -297,23 +297,23 @@ button:hover {
 }
 .box .heading{
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   color: #fff;
   text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) ;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .containers .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  gap:15px;
+  gap:10px;
 }
 .box .box-container .box{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   border-radius:5px;
   background: #fff;
   text-align: center;
-  padding: 30px 20px;
+  padding: 20px 10px;
 }
 
 .box.box-container .box img{
