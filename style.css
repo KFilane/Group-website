@@ -341,15 +341,15 @@ button:hover {
 
 .contact-form input[type="submit"] {
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #0c87ec;
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .contact-form input[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #0c87ec;
 }
 
  /*styling for Services*/
