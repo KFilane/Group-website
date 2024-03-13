@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
-
 *{
     margin: 0 0;
     padding: 0 0;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    justify-content: center; 
+    align-items: center;  
 }
   
 .img-responsive{
@@ -12,10 +12,7 @@ width: 100%;
 .img-curve{
     border-radius: 10px;
 }
- 
-.text-right{
-text-align: right;
-}
+
 .text-center{
     text-align: center;
     }
@@ -25,54 +22,34 @@ text-align: right;
     bottom: 60px;
     left: 40%;
 }
-
-h1{
-    background-color: #81ecec;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: auto;
-    margin-top: 5rem;
-    padding: 2rem;
-}
-
 /* Home page*/
 
 .background {
-    position: relative;
-    width: 100%;
-}
-
-.background video {
-    width: 100%;
-    height: 500px; 
-    object-fit: cover;
-    position: relative;
-    z-index: 0;
+  position: relative;
+  width: 100%;
 }
 
 .text-overlay {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 1;
-    color: whitesmoke; 
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  
 }
 .text-overlay h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-    background-color: transparent;
-
+  margin-bottom: 10px;
+  background-color: transparent;
+   margin-top: -50px; 
+  text-shadow: 2px 1px 2px #2980b9;
+  font-size: 5em;
+  color: #2980b9(95, 51, 51);
 }
-
-.text-overlay small {
-    font-size: 1.2em;
-    color: whitesmoke; 
+.text-overlay h3 {
+  font-size: 3em;
+  color: #2980b9(0, 0, 0, 0.705);
 }
-
    /* css for navbar section*/
 
 .logo{
@@ -82,25 +59,35 @@ h1{
 }
 .navigation{
     line-height: 70px;
-    background-color: #ecf0f1;
-    padding-bottom: 0.5%;
+    background-color: #ffffff;
+    padding: 8px 5%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(112, 111, 111, 0.1);
+    
    
 }
 .navigation nav a{
     list-style-type: none;
     text-decoration-line: none;
-    color: #1abc9c;
+    color: #000000;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
 }
  .navigation nav li{
     display: inline;
+    
     padding: 1%;
     font-weight: bold;
+    float: right;
+    overflow: hidden;
+  
  }
  .navigation a:hover{
-    color: #000000;
+    color: #c95e5e;
 }
+
 
 
 /*ABOUT US*/
@@ -115,22 +102,24 @@ h1{
 }
 
 #About-us {
-    background-color: #e42424;
+    background-color: #130505;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
-    #about-us h {
-       color: #050505  }
+   
   #about-us h1 {
-    color: #050505;
+    color: #fff;
   }
   
   #about-us p {
     font-size: 16px;
     line-height: 1.5;
     color: #000000;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
   }
 
   .about-us{
@@ -138,7 +127,7 @@ h1{
     margin: 20px;
     padding: 20px;
     background-color: #f4f4f4;
-    border-radius: 10px;
+    border-radius: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 300px;
     display: inline-block;
@@ -197,6 +186,9 @@ h1{
 .read-more:hover {
     background-color: #45a049;
 }
+
+/*footer*/
+
 .footer-container {
     display: flex;
     justify-content: space-between;
@@ -280,9 +272,9 @@ button:hover {
 
 .map {
     margin-left: 20px; /* Add some space between the form and the map */
-
-
     color:#6666;
+    width: fit-content;
+    height: fit-content;
   }
 
 /* CONTACT US section */
@@ -291,29 +283,29 @@ button:hover {
  /*styling for Services*/
 
  .box{
-  background: linear-gradient(45deg,rgb(237, 234, 240),rgb(149, 177, 162));
+  background: linear-gradient(45deg,rgb(237, 234, 240),rgb(241, 243, 242));
   padding: 15px 9%;
   padding-bottom: 100px;
 }
 .box .heading{
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   color: #fff;
   text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) ;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .containers .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  gap:15px;
+  gap:10px;
 }
 .box .box-container .box{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   border-radius:5px;
   background: #fff;
   text-align: center;
-  padding: 30px 20px;
+  padding: 20px 10px;
 }
 
 .box.box-container .box img{
@@ -345,9 +337,10 @@ button:hover {
 .box .box-container .box .btn{
   margin-top: 10x;
   display: inline-block;
-  background: #333;
+  background:  #0c87ec;
   color: #fff;
   font-size: 17px;
   border-radius: 5px;
   padding: 8px 25px;
 }
+

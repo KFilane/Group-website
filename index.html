@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url('background.png'); background-size: cover; background-repeat: no-repeat;">
+<html lang="en">
  
 <head>
     <meta charset="UTF-8">
@@ -9,43 +9,29 @@
 </head>
 <body>
 
-
-    <div class="container">
-        <div class="logo">
-            <img src="B-B.png" alt="logo" class="img-responsive" class="image-curve" width="100" height="80">
-         </div>
-
-    <div class="navigation text-right">
+<header>
+    <div class="logo">
+        <img src="B-B.png" alt="logo" class="img-responsive" class="image-curve" width="100" height="80">
+    </div>
+    <div class="navigation">
         <nav>
-            <li>
-                <a href="#home">Home</a>
-            </li>
-            <li>
-                <a href="#about-us">About Us</a>
-            </li>
-            <li>
-                <a href="#services">Services</a>
-            </li>
-            <li>
-                <a href="#contact">Contact Us</a>
-            </li>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
         </nav>
-    </div><br><br>
-
-    <section id="home">
+    </div> 
+<section id="home">
+    <div class="background">
+        <img src="cool.jpg" alt="logo" class="img-responsive" class="image-curve">
         
-        <div class="background">
-            <video preload="auto" autoplay loop muted>
-                <source src="softwareVidz.mp4" type="video/mp4">
-                <source src="softwareVidz.mp4.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        
-        <div class="text-overlay">
-            <strong><h1><i>Binary-Brains</i></h1></strong>
-            <small><b><i>An IT engineer with intelligence creates binary systems.</i></b></small>
-        </div>
-    </section>
+    <div class="text-overlay">
+            <strong><h1>Binary-Brains</h1>
+            <!-- <h3>An IT engineer with intelligence creates binary systems.</h3> -->
+    </div>
+</header>
 
 <section id="about-us">
     <div class="About">
@@ -63,12 +49,7 @@
                 <img class= "article-image" src ="vision-icon.jpg" alt="Article 1 Image">
                 <p>Welcome to Binary Brains, where the convergence of technology and vision is executed with meticulous precision.<br>
                     We specialize in the cultivation of talent that epitomizes the fundamental attributes of our binary-centric intellect.<br>
-                    Our team of Software Engineers is dedicated to crafting innovative code symphonies that play a pivotal role in shaping the digital landscape of tomorrow.<br>
-                    The fortification of digital fortresses with unwavering vigilance is the expertise of our Security Engineers, ensuring the utmost integrity of data.<br>
-                    Our Network Engineers, adept at orchestrating seamless data transmission, work tirelessly to unite minds globally through interconnected networks.<br>
-                    Technical Engineers within our organization are instrumental in maintaining the continual operation of innovative mechanisms, serving as the driving force behind progress.<br>
-                    At Binary Brains, our mission is to nurture visionaries who contribute to shaping an expansive and limitless future in technology. <br>
-                    We extend an invitation to join us on this journey as we explore the profound depths of the digital cosmos, collectively pushing the boundaries of technological innovation.<br>
+                   
                 </p> 
                 <button class="read-more">Read More</button>
             </div>
@@ -78,31 +59,20 @@
                 <img class="article-image" src="mission-icon.png" alt="Article 1 Image">
                 <p>Our formalized mission is to lead the vanguard of technological innovation, leveraging the inherent power of binary brilliance.<br> We are unwaveringly committed to endowing our clients with cutting-edge solutions, foreseeing and addressing future challenges with foresight, and cultivating a community of visionary talent.<br>
             
-                    With an unwavering commitment to integrity and responsibility, we actively contribute to shaping a more luminous future for both technology and society.<br> Our dedication extends beyond the realm of technological advancements to encompass a comprehensive approach that prioritizes ethical considerations and societal impacts.<br> At Binary Brains, we aim to serve as a transformative force, propelling progress while upholding a steadfast commitment to ethical standards and the well-being of society at large.<br>
+                    
                     </p>
                 <button class="read-more">Read More</button>
             </div>
         </div>
         </div>
-    </div><br><br>
-    
+    </div>
 
-       
-<p><strong>Meet our team:</p></strong><br>
-
-<ol>
-  <li>Andile Mnukwa- CEO</li>
-  <li>Kamohelo Filane- CTO</li>
-  <li>Thandiwe Nyama- Lead Developer</li>
-  <li>Onwaba Nobhitywana- Cybersecurity Specialist</li>
-  <li>Siqhamo Matho- Network Architect</li>
-</ol><br><br>
 
     </div>
 </section>
 
 <section id="services">
-    <div><center>
+
         <!--<h1>Services</h1>
         <p>
             Binary Brains offer a comprehensive range of services tailored to meet
@@ -110,9 +80,7 @@
            <emp>Our core offerings include:</emp> 
         </p>
     </div>-->
-    </center>
     
-    </section>
     
     <div class="containers">
         <h1 class="heading" >our services</h1>
@@ -121,10 +89,9 @@
             <div class="box">
             <h3>SOFTWARE ENGINEERS</h3>
             <figure><img src="software.jpg" alt="US" width="250" height="200"><figcaption> Programmer coding on a computer</figcaption></figure>
-           <p> Our team of skilled software engineers specializes in developing custom<br>
-            solutions tailored to your specific requirements.From web applications to<br>
-            mobile apps, we leverage the latest technologies to bring your ideas to life.<br>
-            <a href ="#" class="btn">read more</a>
+           <p> <!--Our team of skilled software engineers specializes in developing custom<br>
+            solutions tailored to your specific requirements.--><br>
+            <a href ="#" class="btn">Read more</a>
         </p><br>
             </div>
     
@@ -137,10 +104,10 @@
         <h3>CYBER SECURITY SPECIALISTS</h3>
         
             <figure><img src="cybersecurity.jpg" alt="US" width="250" height="200"><figcaption>Network diagram with firewalls and encryption symbols</figcaption></figure><br>
-           <p>Protect your digital assets with our advanced cybersecurity services.<br>
-            Our experienced security engineers conduct thorough assessments, implement robust defenses,<br>
-            and provide ongoing monitoring to safeguard your data from potential threats.<br>
-            <a href ="#" class="btn">read more</a>
+           <p><!--Protect your digital assets with our advanced cybersecurity services.<br>
+            Our experienced security engineers conduct thorough assessments and implement robust defenses--><br>
+        
+            <a href ="#" class="btn">Read more</a>
         </p><br>
             </div>
         </div>
@@ -151,10 +118,10 @@
             <div class="box">
         <h3>NETWORK ENGINEERS</h3>
             <figure><img src="network.png" alt="US" width="250" height="200"><figcaption>A futuristic visualization of interconnected digital nodes</figcaption></figure><br>
-            <p>Ensure seamless connectivity and optimal performance with our network architecture services.<br>
-            Our network engineers design, implement, and optimize scalable networks that support your<br>
-            business objectives while ensuring reliability and security.<br>
-            <a href ="#" class="btn">read more</a>
+            <p><!--Ensure seamless connectivity and optimal performance with our network architecture services.<br>
+          Our network engineers design, implement, and optimize scalable networks that support your--><br>
+           
+            <a href ="#" class="btn">Read more</a>
         </p><br>
             </div>
         </div>
@@ -166,10 +133,9 @@
         
             <h3>TECHNICAL SUPPORT</h3>
         <figure><img src="technical.jpg" alt="US" width="250" height="200"><figcaption>IT infrastructure such as servers, data centers, and cloud computing</figcaption></figure><br>
-          <p>From system integration to infrastructure management, our technical engineers provide comprehensive<br>
-            solutions to address your organization's IT needs. Whether you're deploying new technologies <br>
-            optimizing existing systems, we're here to support you every step of the way.<br>
-            <a href ="#" class="btn">read more</a>
+          <p><!--From system integration to infrastructure management, we provide comprehensive<br>
+            solutions to address your organization's IT needs.--> <br>
+            <a href ="#" class="btn">Read more</a>
         </p><br>
           </div>
             </div>
@@ -181,10 +147,10 @@
                 <div class="box">
             <h3>DATA ANALYST</h3>
                 <figure><img src="datasc.jfif" alt="US" width="250" height="200"><figcaption>A futuristic visualization of interconnected digital nodes</figcaption></figure><br>
-                <p>Ensure seamless connectivity and optimal performance with our network architecture services.<br>
-                Our network engineers design, implement, and optimize scalable networks that support your<br>
-                business objectives while ensuring reliability and security.<br>
-                <a href ="#" class="btn">read more</a>
+                <p><!--Ensure seamless connectivity and optimal performance with our network architecture services.<br>
+                Our network engineers design, implement, and optimize scalable networks. that support your<br>
+                business objectives while ensuring reliability and security.--><br>
+                <a href ="#" class="btn">Read more</a>
             </p><br>
                 </div>
             </div>
@@ -197,10 +163,10 @@
             
                 <h3>CONSULTING ADVISORY</h3>
             <figure><img src="cons2.jfif" alt="US" width="250" height="200"><figcaption>A person providing guidance or advice to others</figcaption></figure><br>
-            <p>Tap into our expertise and industry insights with our consulting and advisory services.<br>
-            Whether you need strategic guidance, technology assessments, or project management support,<br>
-            our team is here to help you navigate complex challenges and make informed decisions.<br>
-            <a href ="#" class="btn">read more</a>
+            <p><!--Tap into our expertise and industry insights with our consulting and advisory services.<br>
+            Whether you need strategic guidance, technology assessments, or project management support.<br>
+            our team is here to help you navigate complex challenges and make informed decisions.--><br>
+            <a href ="#" class="btn">Read more</a>
         </p>
             </div>
             </div>
@@ -211,11 +177,10 @@
                     <div class="box"> 
             
                 <h3>CLOUD ARCHITECT</h3>
-                <figure><img src="cloud.jpg" alt="US" width="250" height="250"><figcaption>A person providing guidance or advice to others</figcaption></figure><br>
-                <p>Tap into our expertise and industry insights with our consulting and advisory services.<br>
-                Whether you need strategic guidance, technology assessments, or project management support,<br>
-                our team is here to help you navigate complex challenges and make informed decisions.<br>
-                <a href ="#" class="btn">read more</a>
+                <figure><img src="cloud.jpg" alt="US" width="250" height="250"><figcaption>A person providing guidance or advice to others on cloud solutions</figcaption></figure><br>
+                <p><!--Tap into our expertise and industry insights with our consulting and advisory services.<br>
+                    Our services encompass designing, implementing, and managing cloud computing solutions for organizations.--> <br>
+                <a href ="#" class="btn">Read more</a>
                 </div>
                 </div>
             </div>
@@ -225,11 +190,9 @@
                     <div class="box"> 
             
                 <h3>IT CHANGE MANAGER</h3>
-                <figure><img src="itchange.jpg" alt="US" width="250" height="250"><figcaption>A person providing guidance or advice to others</figcaption></figure><br>
-                <p>Tap into our expertise and industry insights with our consulting and advisory services.<br>
-                Whether you need strategic guidance, technology assessments, or project management support,<br>
-                our team is here to help you navigate complex challenges and make informed decisions.<br>
-                <a href ="#" class="btn">read more</a>
+                <figure><img src="itchange.jpg" alt="US" width="250" height="250"><figcaption>Person ensuring that changes are implemented effectively </figcaption></figure><br>
+                <p><!--WE help manage changes to the IT environment in a way that minimizes risk and disruption to the business. <br>We offer and develop and maintain change management processes, facilitate Change Advisory Board meetings,--><br>
+                <a href ="#" class="btn">Read more</a>
                 </div>
                 </div>
             </div>
@@ -237,8 +200,6 @@
         
     </section>
     
-<br><br><hr><br><br>
-
 <section id="contact">
 
     <div class="contact">
@@ -267,6 +228,15 @@
 <div class="footer">
     <h1>FIND US </h1>
    
+    <p>&copy; 2024 Binary Brains | 
+        <a href="https://www.linkedin.com/in/yourlinkedinprofile" target="_blank"></a> 
+        <img src="linkedIn.png" alt="" width="30" height="30">
+
+        <a href="https://www.facebook.com/yourfacebookpage" target="_blank"></a> | 
+        <img src="download.png" alt="" width="30" height="30">
+
+        <a href="https://wa.me/0717190966" target="_blank"></a>
+        <img src="whatsapp.png" alt="WhatsApp Icon" width="30" height="30">
     </p>
     
     
@@ -276,14 +246,14 @@
             <form action="#" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
-
+    
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-
+    
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea><br>
-
-                <button type="submit">Send Message</button>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <input type="submit" value="Submit">
             </form>
         <div class="footer-social">
             <h3>Follow Us</h3>
@@ -305,7 +275,7 @@
             <p><strong>Address:</strong> 97 Durham Avenue, Salt River, Cape Town, 7925</p>
             <p><strong>Operating Hours:</strong> Mon-Fri 9am-5pm</p>
         </div>
-        
+        <p>&copy; 2024 Binary Brains | 
         <div class="map">
             <!-- Embed your map here, for example using Google Maps iframe -->
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.301561875189!2d18.45808437579908!3d-33.93337117320199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5d08518ba1b9%3A0x1398e85e424f762!2s97%20Durham%20Ave%2C%20Salt%20River%2C%20Cape%20Town%2C%207925!5e0!3m2!1sen!2sza!4v1707830443932!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -313,14 +283,15 @@
                 97 Durham Avenue, Salt River, Cape Town, 7925</p>
         </div>
     </div>
-    </div>
+</section>
+
+<section>
     <footer class="footer-container">
         <div class="footer-info">
             <h3>Contact Information</h3>
-            <p>Email: example@example.com</p>
+            <p>Email: info@binarybrains.co.za</p>
             <p>Phone: +1 (123) 456-7890</p>
             <p>Operating Hours: Mon-Fri 9am-5pm</p>
-
         </div>
         <div class="footer-social">
             <h3>Follow Us</h3>
@@ -331,16 +302,9 @@
                 <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
             </div>
             <p>&copy; 2024 Binary Brains | 
-                <a href="https://www.linkedin.com/in/yourlinkedinprofile" target="_blank"></a> 
-                <img src="linkedIn.png" alt="linkedin Icon" width="30" height="30">
-        
-                <a href="https://www.facebook.com/yourfacebookpage" target="_blank"></a> | 
-                <img src="facebook icon.png" alt="Facebook Icon" width="30" height="30">
-        
-                <a href="https://wa.me/0717190966" target="_blank"></a>
-                <img src="icone-whatsapp.webp" alt="WhatsApp Icon" width="30" height="30">
-                </div>
         </div>
     </footer>
+</section>
+
 </body>
 </html>
